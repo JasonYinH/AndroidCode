@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:background="#fff5f9fb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+
+    <com.base.jinjiezhiguang.PwdEditText
+        android:id="@+id/p"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:layout_centerInParent="true"
+        android:maxLength="4"
+        app:backColor="#FFFFFF"
+        app:checkedColor="#ffd0d0d0"
+        app:isPwd="false"
+        app:space="4dp"
+        app:textColor="#000000"
+        app:textLength="4"
+        />
+
+
+</LinearLayout>
