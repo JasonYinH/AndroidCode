@@ -3,3 +3,4 @@ include ':third-library-source-analysis'
 include ':app'
 rootProject.name = "My Application"
 include ':one_code_three_version'
+include ':zhinanfourversion'
